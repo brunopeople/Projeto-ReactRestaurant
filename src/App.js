@@ -1,11 +1,20 @@
 import React from 'react'
 
-const App = () => {
-    return(
-        <div>
-            <h1>Olá Mundo!</h1>
-        </div>
-    )
-}
+import {AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, Laurels, SpecialMenu} from './container';
+import {Navbar} from './components';
 
-export default App
+const App =() => (
+    <div>
+        <Navbar />
+        <Header />
+        <AboutUs />
+        <Chef />
+        <Intro />
+        <Laurels />
+        <Gallery />
+        <FindUs />
+        <Footer />
+    </div>
+);
+
+export default App;
