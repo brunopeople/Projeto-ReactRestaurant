@@ -69,26 +69,26 @@ const cocktails = [
 const awards = [
     {
         imgUrl: images.awards02,
-        title 'Bib Gourmond',
+        title: 'Bib Gourmond',
         subtitle: 'Lorem ipsum dolor sit amet, consectetur',
     },
 
 
     {
         imgUrl: images.awards01,
-        title 'Rising Star',
+        title: 'Rising Star',
         subtitle: 'Lorem ipsum dolor sit amet, consectetur',
     },
 
     {
         imgUrl: images.awards05,
-        title 'AA Hospitality',
+        title: 'AA Hospitality',
         subtitle: 'Lorem ipsum dolor sit amet, consectetur',
     },
 
     {
         imgUrl: images.awards03,
-        title 'Outstading Chef',
+        title: 'Outstading Chef',
         subtitle: 'Lorem ipsum dolor sit amet, consectetur',
     },
 ];
